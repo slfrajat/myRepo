@@ -1,0 +1,12 @@
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class CalculatorTest {
+
+	@Test
+	public void testAddValues() {
+		assertEquals(10, new Calculator().addValues(5, 5));
+	}
+
+}
